@@ -21,6 +21,7 @@ void main(void) {
   pal_col(3,0x39);	// white
 
   // write text to name table
+  // Centralizei
   vram_adr(NTADR_A(012,14));		// set address
   vram_write("HELLO, WORLD!", 13);	// write bytes to video RAM
 
